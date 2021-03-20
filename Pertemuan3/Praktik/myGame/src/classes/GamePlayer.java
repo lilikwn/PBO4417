@@ -1,64 +1,58 @@
-import javax.print.DocFlavor.STRING;
+package classes;
 
-public class GameEnvironment {
-    public static void main(String[] args) {
-        System.out.println("hello world");
-    }
-}
-
-class GamePlayer {
+public class GamePlayer {
     double width;
     double height;
     int positionX;
     int positionY;
 
-    GamePlayer() {
+    public GamePlayer() {
 
     }
 
-    GamePlayer(double width, double height) {
+    public GamePlayer(double width, double height) {
         this.width = width;
         this.height = height;
     }
 
-    GamePlayer(double width, double height, int positionX, int positionY) {
+    public GamePlayer(double width, double height, int positionX, int positionY) {
         this.width = width;
         this.height = height;
         this.positionX = positionX;
         this.positionY = positionY;
     }
 
-    void setDimension(double width, double height) {
+    public void setDimension(double width, double height) {
         this.width = width;
         this.height = height;
     }
 
-    void setPosition(int positionX, int positionY) {
+    public void setPosition(int positionX, int positionY) {
         this.positionX = positionX;
         this.positionY = positionY;
     }
 
-    double getWidth() {
-        return width;
+    public double getWidth() {
+        return this.width;
     }
 
-    double getHeight() {
-        return height;
+    public double getHeight() {
+        return this.height;
     }
 
-    int getX() {
+    public int getX() {
         return this.positionX;
     }
 
-    int getY() {
+    public int getY() {
         return this.positionY;
     }
 
-    void Run() {
+    public void Run() {
         System.out.println("Player is running");
     }
 
-    void Run(int incrementX) {
+    public void Run(int incrementX) {
         this.positionX += incrementX;
         System.out.println("Player still running...current X position = " + this.positionX);
     }
