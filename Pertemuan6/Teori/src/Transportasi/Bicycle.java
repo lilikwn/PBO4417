@@ -1,4 +1,6 @@
-public class Bicycle extends Vehicle {
+package Transportasi;
+
+public class Bicycle extends Mobil {
     public Bicycle() {
 
     }

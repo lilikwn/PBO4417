@@ -1,4 +1,6 @@
-class MotorVehicle extends Vehicle {
+package src;
+
+public class MotorVehicle extends Vehicle {
     public int sizeofEngine = 1;
     public String licencePlate = "H 1 IDN";
 

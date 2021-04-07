@@ -1,3 +1,5 @@
+package src;
+
 public class UjiKendaraan {
     public static void main(String[] args) {
         MotorVehicle motorku = new MotorVehicle(4, "H 311 O");

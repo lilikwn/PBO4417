@@ -1,8 +1,10 @@
-public class Vehicle {
+package Transportasi;
+
+public class Mobil {
     public double speed;
     public double color;
 
-    public Vehicle() {
+    public Mobil() {
 
     }
 
