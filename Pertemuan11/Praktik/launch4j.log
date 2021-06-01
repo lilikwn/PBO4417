@@ -1,0 +1,31 @@
+
+
+Version:	3.14
+CmdLine:	E:\UDINUS\SEMESTER 4\PBO\Coding\Pertemuan11\Praktik\BeratIdeal.exe --l4j-debug
+WOW64:		yes
+Working dir:	E:\UDINUS\SEMESTER 4\PBO\Coding\Pertemuan11\Praktik\.
+Java min ver:	1.004.000
+Java max ver:	
+Bundled JRE(s):	jre
+Check launcher:	E:\UDINUS\SEMESTER 4\PBO\Coding\Pertemuan11\Praktik\jre\bin\javaw.exe (not found)
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_251\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_251
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_251\bin\javaw.exe (OK)
+Match:		1.008.000_251
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+32-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\15.0.2
+Check launcher:	C:\Program Files\Java\jdk-15.0.2\bin\javaw.exe (OK)
+Match:		1.015.000_002
+Runtime used:	1.015.000_002 (64-bit)
+Launcher:	C:\Program Files\Java\jdk-15.0.2\bin\javaw.exe
+Launcher args:	-jar "E:\UDINUS\SEMESTER 4\PBO\Coding\Pertemuan11\Praktik\BeratIdeal.exe"
+Args length:	73/32768 chars
+Exit code:	0

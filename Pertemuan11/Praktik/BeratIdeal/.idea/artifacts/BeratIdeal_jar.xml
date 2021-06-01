@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BeratIdeal:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/BeratIdeal_jar</output-path>
+    <root id="archive" name="BeratIdeal.jar">
+      <element id="module-output" name="BeratIdeal" />
+    </root>
+  </artifact>
+</component>
