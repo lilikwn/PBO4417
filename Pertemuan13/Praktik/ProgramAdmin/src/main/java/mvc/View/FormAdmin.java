@@ -10,7 +10,6 @@ import javax.swing.JComboBox;
 import javax.swing.JTable;
 import javax.swing.JButton;
 import mvc.Controller.ControllerAdmin;
-import mvc.View.FormMenu;
 /**
  *
  * @author ASUS
@@ -65,7 +64,6 @@ public class FormAdmin extends javax.swing.JFrame {
         txtID = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         refreshButton = new javax.swing.JButton();
-        menuButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -220,13 +218,6 @@ public class FormAdmin extends javax.swing.JFrame {
             }
         });
 
-        menuButton.setText("Bakc to Menu");
-        menuButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuButtonActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -289,11 +280,8 @@ public class FormAdmin extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(buttonReset)
                                 .addGap(18, 18, 18)
-                                .addComponent(refreshButton)
-                                .addGap(18, 18, 18)
-                                .addComponent(menuButton)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                                .addComponent(refreshButton)))
+                        .addContainerGap(532, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -344,8 +332,7 @@ public class FormAdmin extends javax.swing.JFrame {
                     .addComponent(buttonUpdate)
                     .addComponent(buttonDelete)
                     .addComponent(buttonReset)
-                    .addComponent(refreshButton)
-                    .addComponent(menuButton))
+                    .addComponent(refreshButton))
                 .addContainerGap())
         );
 
@@ -449,13 +436,6 @@ public class FormAdmin extends javax.swing.JFrame {
         cbt.isiTable();
     }//GEN-LAST:event_refreshButtonActionPerformed
 
-    private void menuButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuButtonActionPerformed
-        // TODO add your handling code here:
-        FormMenu formMenu = new FormMenu();
-        formMenu.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_menuButtonActionPerformed
-
     private void tabelDataMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tabelDataMouseClicked
         // TODO add your handling code here:
         int row = tabelData.getSelectedRow();
@@ -516,7 +496,6 @@ public class FormAdmin extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JButton menuButton;
     private javax.swing.JButton refreshButton;
     private javax.swing.JComboBox<String> setJK;
     private javax.swing.JTable tabelData;
